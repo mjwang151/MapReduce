@@ -21,7 +21,6 @@ public class WordCountDriver {
     final static Logger log = Logger.getLogger(WordCountDriver. class );
 
     public static void main(String[] args){
-        log.info("============");
         System.setProperty("hadoop.home.dir","H:\\hadoop-3.1.2");
         try {
             //指定配置
